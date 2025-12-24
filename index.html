@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</form></title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+    <h1 class="heading">Registration form</h1>
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text"id="name" name="name" required placeholder="Enetr your name."><br><br>
+        <label for="branch">Branch:</label>
+        <select name="branch" id="branch">
+            <option value="cse">CSE</option>
+            <option value="IOt">IOT</option>
+            <option value="Civil">CIVIL</option>
+            <option value="machanical">MACHANICAL</option>
+            <option value="electrical">ELECTRICAL</option>
+        </select>
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required placeholder="Enter your age:">
+        <br><br>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enater your email">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enetr your password."> <br><br>
+        <label for="phone">phone:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Enetr your phone number"><br><br>
+        <label for="city">City:</label>
+        <input list="city" placeholder="select your city.">
+            <datalist id="city">
+                <option value="Delhi"></option>
+                <option value="Mumbai"></option>
+                <option value="Bangalore"></option>
+                <option value="Hyderabad"></option>
+                <option value="Chennai"></option>
+            </datalist>
+            <br><br>
+        <label for="gender">Gender:</label><br><br>
+        <input type="radio" id="male" name="gender" value="male" >
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" >
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" >
+        <label for="other">Other</label><br><br>
+
+        <!-- submit -->
+
+        <input type="submit" value="Register" class="button">
+        <input type="reset" value="Clear" class="button">
+    </form>
+    </div>
+</body>
+</html>

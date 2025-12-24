@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(245, 220, 223);
+}
+
+form{
+    background-color: rgb(225, 95, 225);
+    padding: 20px;
+    color: rgb(249, 245, 245);
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+
+}
+input, select{
+    width: 100%;
+    padding: 5px;
+    background-color:lightblue;
+    color: black;
+}
+.button{
+    width: 48%;
+    color: white;
+    background-color: royalblue;
+}
+h1{
+    text-align: center;
+    color: blue;
+    background-color:darkturquoise;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
